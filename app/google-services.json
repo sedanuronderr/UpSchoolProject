@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "35292291345",
+    "project_id": "e-commercee-ec9ca",
+    "storage_bucket": "e-commercee-ec9ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35292291345:android:62300cfc0e109384196cb0",
+        "android_client_info": {
+          "package_name": "com.seda.e_commerceappp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35292291345-lqip3f933c77h46qgibom1oh8ahklt5d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBha5HpykxpCWuyTYPFksIRIDaV2R6BDyQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35292291345-lqip3f933c77h46qgibom1oh8ahklt5d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

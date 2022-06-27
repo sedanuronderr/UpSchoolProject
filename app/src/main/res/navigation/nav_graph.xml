@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.seda.e_commerceappp.Dashboard.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_productFragment"
+            app:destination="@id/productFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bagFragment"
+        android:name="com.seda.e_commerceappp.Dashboard.BagFragment"
+        android:label="fragment_bag">
+        <action
+            android:id="@+id/action_bagFragment_to_go_to_PayFragment"
+            app:destination="@id/go_to_PayFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.seda.e_commerceappp.Dashboard.FavoriteFragment"
+        android:label="fragment_favorite"
+        tools:layout="@layout/fragment_favorite" />
+    <fragment
+        android:id="@+id/productFragment"
+        android:name="com.seda.e_commerceappp.Dashboard.ProductFragment"
+        android:label="fragment_product">
+        <argument
+            android:name="urunyaz"
+            app:argType="com.seda.e_commerceappp.model.productsItem" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.seda.e_commerceappp.Dashboard.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/shopFragment"
+        android:name="com.seda.e_commerceappp.Dashboard.ShopFragment"
+        android:label="fragment_shop" />
+    <fragment
+        android:id="@+id/go_to_PayFragment"
+        android:name="com.seda.e_commerceappp.PayFragment.Go_to_PayFragment"
+        android:label="Go_to_PayFragment" >
+        <action
+            android:id="@+id/action_go_to_PayFragment_to_successFragment"
+            app:destination="@id/successFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/successFragment"
+        android:name="com.seda.e_commerceappp.PayFragment.SuccessFragment"
+        android:label="fragment_success"
+        tools:layout="@layout/fragment_success" >
+        <action
+            android:id="@+id/action_successFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+</navigation>
