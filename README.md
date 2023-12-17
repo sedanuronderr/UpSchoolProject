@@ -1,5 +1,5 @@
 # UpschoolProject
-## Mvvm,Retrofit,Fragment,Room,Work Manager,View Binding,Data Binding,Glide teknolojileri kullanıldı.
+## Mvvm,Retrofit,Fragment,Room,Work Manager,View Binding,Data Binding,Glide technologies were used in the project..
 
 <table>
    <tr>
