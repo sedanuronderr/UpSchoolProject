@@ -1,4 +1,4 @@
-# UpschoolProject
+# E-Commerce App  (UpschoolProject) 
 ## Mvvm,Retrofit,Fragment,Room,Work Manager,View Binding,Data Binding,Glide technologies were used in the project..
 
 <table>
